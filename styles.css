@@ -1,0 +1,239 @@
+body{
+    font-family:'roboto';
+    margin: 0px;
+    padding: auto;
+    text-decoration: none;
+}
+
+.menu {
+    background: rgba(0, 0, 255, 0.632);
+    padding: 10px ;
+    margin: auto;
+    list-style: none;
+    align-items: center;
+    height: 50px;
+    color: aliceblue;
+    border-radius: 15px;
+    transition: 0.4s ease;
+    display: flex;
+    cursor: pointer;
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    padding-right: 700px;
+    padding-left: 90px;
+}
+
+.logo:hover{
+    color: rgb(6, 220, 220);
+    text-shadow: 1px 1px 25px rgb(6, 220, 220),
+                1px 1px 50px rgb(6, 220, 220); 
+}
+
+div a { 
+    font-size: 16px;
+    margin: 0 20px;
+    font-weight: 500;
+    transition: 0.3s ease;
+    padding-right: 30px;
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+
+div a:hover {
+    color: rgb(6, 220, 220);
+    text-shadow: 1px 1px 25px rgb(6, 220, 220),
+                1px 1px 50px rgb(6, 220, 220); 
+    transform: scalex(1.1);
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    height: 900px;
+    
+}
+
+.home img {
+    width: 500px;
+    height: 600px;
+    margin-left: 170px;
+    margin-top: 100px;
+    border-radius: 30%;
+    box-shadow: 0 2px 10px rgba(0, 0, 255, 0.625);
+}
+
+.home h1 {
+    margin-left: 15px;
+    margin-right: 15px ;
+    font-size: 37px ;
+    color: blue;
+}
+
+.home p {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgba(190, 189, 189, 0.556);
+    border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 255, 0.626);
+    border-radius: 10px;
+}
+
+.About {
+    height: 900px;
+    display: flex;
+    background: rgba(202, 202, 248, 0.329);
+    align-items: center;
+}
+
+.About h2{
+    margin-top: -350px;
+    margin-left: 100px;
+    color: blue;
+    font-size: 37px;
+}
+
+.About p {
+    position: absolute;
+    left: 30px;
+    font-size: 20px;
+    bottom: -700px;
+}
+
+.About iframe {
+    position: absolute;
+    right: 200px;
+    border-radius: 25px;
+    box-shadow: 0 2px 12px rgba(0, 0, 255, 0.625);
+}
+
+.work {
+    display: flex;
+    height: 900px;
+    align-items: center;
+}
+
+.work h2 {
+    font-size: 37px;
+    color: blue;
+    margin-top: -600px;
+    margin-left: 100px;
+}
+
+.work p {
+    font-size: 20px;
+}
+
+.modif-table {
+    border: solid 3px rgba(202, 202, 248, 0.329);
+    min-width: 800px;
+    width: auto;
+    height: 300px;
+    border-collapse: collapse;
+    box-shadow: 0 2px 12px rgba(0, 0, 255, 0.625);
+    margin: 70px;
+    left: 14px;
+    border-radius: 15px;
+    background-color:rgba(202, 202, 248, 0.329) ;
+}
+
+th, td {
+    padding: 15px 20px;
+}
+
+tbody, td, th {
+    border: 2px solid blue;
+}
+
+.cv {
+    height: 900px;
+    background-color:rgba(202, 202, 248, 0.329);
+    
+}
+
+.cv h2 {
+    font-size: 37px;
+    color: blue;
+    margin-top: 100px;
+    margin-left: 100px;
+    padding-top: 50px;
+}
+
+.cv div {
+    border: 1px blue solid;
+    padding: 8px;
+    font-size: 17px;
+    margin: 5px 100px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 1px 5px 12px rgba(0, 0, 255, 0.464);
+}
+
+.contact {
+    height: 900px;
+}
+
+.contact h2 {
+    font-size: 37px;
+    color: blue;
+    margin-top: 100px;
+    margin-left: 650px;
+    padding-top: 100px;
+}
+
+form {
+    max-width: 100px;
+    text-align: center;
+    margin: 200px 500px;
+}
+
+input {
+    width: 500px;
+    height: 40px;
+    padding: 5px;
+    font-size: 18px;
+    border: solid 2px rgba(0, 0, 255, 0.578);
+    border-radius: 15px;
+    background-color: rgba(202, 202, 248, 0.329);
+    margin: 10px;
+    box-shadow: 0 2px 5px blue;
+    resize: none;
+    cursor: pointer;
+}
+
+
+footer {
+    background: rgba(0, 0, 255, 0.632);
+    border-radius: 10px;
+    height: 80px;
+}
+
+footer .social-2 {
+    display: flex;
+    text-decoration: none;
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding-left: 555px;
+}
+
+footer .social {
+    display: flex;
+    margin-bottom: 20px;
+    padding-left: 600px;
+}
